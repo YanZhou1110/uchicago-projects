@@ -1,0 +1,12 @@
+numpy
+pandas
+streamlit
+scikit-learn
+sentence-transformers
+qdrant-client
+transformers
+torch
+accelerate
+bitsandbytes
+openai
+jupyterlab

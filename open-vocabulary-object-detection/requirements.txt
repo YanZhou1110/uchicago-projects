@@ -1,0 +1,10 @@
+streamlit>=1.40,<2
+ultralytics>=8.3.155,<9
+torch>=2.2
+torchvision>=0.17
+pillow>=10
+pandas>=2
+ftfy
+regex
+tqdm
+clip @ git+https://github.com/ultralytics/CLIP.git

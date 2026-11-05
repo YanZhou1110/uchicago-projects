@@ -1,0 +1,8 @@
+gymnasium[classic-control]
+pygame
+numpy
+pandas
+matplotlib
+scikit-learn
+torch
+jupyterlab
