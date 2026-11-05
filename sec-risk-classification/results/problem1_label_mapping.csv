@@ -1,0 +1,7 @@
+label_id,label_name,label_abbrev
+1,Boilerplate / No Specific Risk,Boilerplate
+2,Financial & Market Risk,Financial/Market
+3,Regulatory & Legal Risk,Regulatory/Legal
+4,Operational & Supply Chain Risk,Operational/Supply
+5,"Tech, Cyber & AI Risk",Tech/Cyber/AI
+6,"Strategic, Competitive & Geopolitical Risk",Strategic/Geo
