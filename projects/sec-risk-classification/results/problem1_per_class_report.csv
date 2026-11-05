@@ -1,0 +1,28 @@
+model,label,precision,recall,f1-score,support,label_id,label_name,label_abbrev
+TF-IDF + Logistic Regression,1,0.6,0.75,0.6666666666666666,64.0,1,Boilerplate / No Specific Risk,Boilerplate
+TF-IDF + Logistic Regression,2,0.62,0.7209302325581395,0.6666666666666666,86.0,2,Financial & Market Risk,Financial/Market
+TF-IDF + Logistic Regression,3,0.784037558685446,0.8186274509803921,0.8009592326139089,204.0,3,Regulatory & Legal Risk,Regulatory/Legal
+TF-IDF + Logistic Regression,4,0.7307692307692307,0.75,0.7402597402597403,76.0,4,Operational & Supply Chain Risk,Operational/Supply
+TF-IDF + Logistic Regression,5,0.8235294117647058,0.7,0.7567567567567568,120.0,5,"Tech, Cyber & AI Risk",Tech/Cyber/AI
+TF-IDF + Logistic Regression,6,0.7538461538461538,0.6405228758169934,0.6925795053003534,153.0,6,"Strategic, Competitive & Geopolitical Risk",Strategic/Geo
+TF-IDF + Logistic Regression,accuracy,0.7339971550497866,0.7339971550497866,0.7339971550497866,0.7339971550497866,accuracy,accuracy,accuracy
+TF-IDF + Logistic Regression,macro avg,0.7186970591775893,0.7300134265592542,0.720648094710682,703.0,macro avg,macro avg,macro avg
+TF-IDF + Logistic Regression,weighted avg,0.741627474339287,0.7339971550497866,0.7346100979157079,703.0,weighted avg,weighted avg,weighted avg
+local FinBERT checkpoint + Logistic Regression,1,0.079646017699115,0.28125,0.1241379310344827,64.0,1,Boilerplate / No Specific Risk,Boilerplate
+local FinBERT checkpoint + Logistic Regression,2,0.1323529411764706,0.1046511627906976,0.1168831168831168,86.0,2,Financial & Market Risk,Financial/Market
+local FinBERT checkpoint + Logistic Regression,3,0.3333333333333333,0.0441176470588235,0.0779220779220779,204.0,3,Regulatory & Legal Risk,Regulatory/Legal
+local FinBERT checkpoint + Logistic Regression,4,0.0412371134020618,0.0526315789473684,0.0462427745664739,76.0,4,Operational & Supply Chain Risk,Operational/Supply
+local FinBERT checkpoint + Logistic Regression,5,0.150375939849624,0.1666666666666666,0.1581027667984189,120.0,5,"Tech, Cyber & AI Risk",Tech/Cyber/AI
+local FinBERT checkpoint + Logistic Regression,6,0.25,0.2483660130718954,0.2491803278688524,153.0,6,"Strategic, Competitive & Geopolitical Risk",Strategic/Geo
+local FinBERT checkpoint + Logistic Regression,accuracy,0.139402560455192,0.139402560455192,0.139402560455192,0.139402560455192,accuracy,accuracy,accuracy
+local FinBERT checkpoint + Logistic Regression,macro avg,0.1644908909101008,0.1496138447559086,0.1287448325122371,703.0,macro avg,macro avg,macro avg
+local FinBERT checkpoint + Logistic Regression,weighted avg,0.2047067304045966,0.139402560455192,0.134429946772483,703.0,weighted avg,weighted avg,weighted avg
+Prompt-based LLM (qwen2.5:0.5b),1,0.0,0.0,0.0,8.0,1,Boilerplate / No Specific Risk,Boilerplate
+Prompt-based LLM (qwen2.5:0.5b),2,0.0,0.0,0.0,10.0,2,Financial & Market Risk,Financial/Market
+Prompt-based LLM (qwen2.5:0.5b),3,0.23529411764705882,0.4,0.2962962962962963,10.0,3,Regulatory & Legal Risk,Regulatory/Legal
+Prompt-based LLM (qwen2.5:0.5b),4,0.0,0.0,0.0,10.0,4,Operational & Supply Chain Risk,Operational/Supply
+Prompt-based LLM (qwen2.5:0.5b),5,0.0,0.0,0.0,10.0,5,"Tech, Cyber & AI Risk",Tech/Cyber/AI
+Prompt-based LLM (qwen2.5:0.5b),6,0.21951219512195122,0.9,0.35294117647058826,10.0,6,"Strategic, Competitive & Geopolitical Risk",Strategic/Geo
+Prompt-based LLM (qwen2.5:0.5b),accuracy,0.22413793103448276,0.22413793103448276,0.22413793103448276,0.22413793103448276,accuracy,accuracy,accuracy
+Prompt-based LLM (qwen2.5:0.5b),macro avg,0.07580105212816834,0.21666666666666667,0.10820624546114743,58.0,macro avg,macro avg,macro avg
+Prompt-based LLM (qwen2.5:0.5b),weighted avg,0.0784148815118983,0.22413793103448276,0.11193749530463527,58.0,weighted avg,weighted avg,weighted avg
